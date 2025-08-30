@@ -1,0 +1,43 @@
+ * {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/nebulosa_img.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+            padding: 10px;
+        }
+
+        .text-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 4px solid #ff8c00;
+            border-radius: 25px;
+            padding: 30px;
+            max-width: 200px;
+            margin-left: 20px;
+            box-shadow: 0 0 20px ffffff(247, 8, 0, 0.3);
+        }
+
+        .text-box h1 {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+
+        .text-box p {
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            text-align: justify;
+        }

@@ -1,0 +1,16 @@
+.text-box {
+    background-color: #c0c0c0;
+    border: 20px solid #000000;
+    border-radius: 50px 10px 30px 2px;
+    padding: 30px 40px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.text-box p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000000;
+    margin: 0;
+    
+}
